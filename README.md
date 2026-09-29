@@ -24,6 +24,7 @@ This repository contains the theory exercises and laboratory experiments complet
 
 | Experiment | Title | Status |
 |---|---|---|
+| [Exam01B](./LAB/Exam01B/README.md) | TODO APP with Express, EJS and MongoDB | Ready for local verification |
 | [Experiment 1](./LAB/Exp1/Report.md) | HTML5 Elements | Completed |
 | [Experiment 12A](./LAB/Exp12/Report.md) | Node.js, Express.js, EJS and Nodemon | Completed |
 | [Experiment 12B](./LAB/Exp12B/README.md) | Sessions and Cookies | Completed |
@@ -39,6 +40,7 @@ This repository contains the theory exercises and laboratory experiments complet
 ```text
 BackendDevelopment/
 ├── LAB/
+│   ├── Exam01B/
 │   ├── Exp1/
 │   ├── Exp12/
 │   └── Exp12B/
