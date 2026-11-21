@@ -1,56 +1,34 @@
 # Backend Development
 
-**Student:** Aryan Malik  
-**SAP ID:** 590011847  
-**Course:** Backend Development
+Course portfolio by **Aryan Malik** for **Backend Development (CSFS3008P)**. This repository brings together theory work, lab experiments, assignments, notes, and a project built around Docker and GitHub Actions.
 
-This repository contains the theory exercises and laboratory experiments completed for the Backend Development course.
+## Live portfolio
 
-- **Repository:** [KinglyyyY/BackendDevelopment](https://github.com/KinglyyyY/BackendDevelopment)
-- **GitHub Pages:** [View the project site](https://kinglyyyy.github.io/BackendDevelopment/)
+**[Open the repository guide](https://kinglyyyy.github.io/BackendDevelopment/)** · [Browse the source on GitHub](https://github.com/KinglyyyY/BackendDevelopment)
 
-## Theory Unit 1
+The live site includes a searchable, expandable map of every file in this repository. Choose a collection to open its reports in an on-page viewer, or search the tree by experiment, topic, or filename.
 
-| Task | Topic | Status |
-|---|---|---|
-| [Task 1](./Theory/Task1/) | Node.js and Express Environment | Completed |
-| [Task 2](./Theory/Task2/) | HTTP Requests and Flask API | Completed |
-| [Task 3](./Theory/Task3/) | RESTful APIs with FastAPI | Completed |
-| [Task 4](./Theory/Task4/) | Sessions, Cookies and Query Strings | Completed |
-| [Task 5](./Theory/Task5/) | LocalStorage, SessionStorage and JSON | Completed |
-| [Task 6](./Theory/Task6/) | Server-Side Rendering with EJS and Jinja2 | Completed |
+## Repository map
 
-## Laboratory Experiments
+| Folder or file | What you’ll find |
+|---|---|
+| [`Theory/`](./Theory/) | Course tasks and notes, including Units 2, 3, and 4 |
+| [`LAB/`](./LAB/) | Lab apps and reports: Exam01B, Exp1, Exp12, Exp12B, Exp13A, Exp15, and Exp7_8 |
+| [`Assignment/`](./Assignment/) | Assignment 1 files and the Assignment 2 brief |
+| [`Todo/`](./Todo/) | Todo project materials |
+| [`.github/workflows/`](./.github/workflows/) | API test and Docker comparison GitHub Actions |
+| [`PBL Assignment.md`](./PBL%20Assignment.md) | PBL summary and link to the Dockerized app and CI repository |
+| [`assets/`](./assets/) | Styles and script for the live portfolio page |
+| [`scripts/update_repository_tree.py`](./scripts/update_repository_tree.py) | Refreshes the file index used by the live portfolio |
 
-| Experiment | Title | Status |
-|---|---|---|
-| [Exam01B](./LAB/Exam01B/README.md) | TODO APP with Express, EJS and MongoDB | Ready for local verification |
-| [Experiment 1](./LAB/Exp1/Report.md) | HTML5 Elements | Completed |
-| [Experiment 12A](./LAB/Exp12/Report.md) | Node.js, Express.js, EJS and Nodemon | Completed |
-| [Experiment 12B](./LAB/Exp12B/README.md) | Sessions and Cookies | Completed |
+After adding or removing repository files, run `python3 scripts/update_repository_tree.py` before publishing so the live file map stays in sync.
 
-## Main Technologies Used
+## Technologies
 
-- HTML5, CSS3, JavaScript, Node.js, Express.js and EJS
-- Python, Flask, FastAPI and Jinja2
-- Git, GitHub, REST APIs, sessions, cookies and browser storage
+Node.js · Express · EJS · Python · Django · Flask · FastAPI · SQL · MongoDB · Docker · GitHub Actions
 
-## Repository Structure
+## Project links
 
-```text
-BackendDevelopment/
-├── LAB/
-│   ├── Exam01B/
-│   ├── Exp1/
-│   ├── Exp12/
-│   └── Exp12B/
-├── Theory/
-│   ├── Task1/
-│   ├── Task2/
-│   ├── Task3/
-│   ├── Task4/
-│   ├── Task5/
-│   └── Task6/
-├── index.html
-└── README.md
-```
+- [PBL application and CI workflow](https://github.com/KinglyyyY/BackendDevelopment-PBL)
+- [GitHub Pages portfolio](https://kinglyyyy.github.io/BackendDevelopment/)
+- [GitHub Actions workflows](./.github/workflows/)
